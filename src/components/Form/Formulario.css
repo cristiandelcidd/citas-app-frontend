@@ -1,0 +1,49 @@
+.formulario-contenedor {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 95%;
+  background: #6987c9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.formulario {
+  padding: 10px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.formulario input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.formulario input:not(:last-child) {
+  border: 1px solid transparent;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+select {
+  padding: 5px;
+  display: block;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}

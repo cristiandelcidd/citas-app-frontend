@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  background-color: #20adad;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  border: 2px solid white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
